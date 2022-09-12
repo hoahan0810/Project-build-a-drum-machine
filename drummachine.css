@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+#drum-machine {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+
+#display {
+  display: block;
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+/*# sourceMappingURL=drummachine.css.map */
